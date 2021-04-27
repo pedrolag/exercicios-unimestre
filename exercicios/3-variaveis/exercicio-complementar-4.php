@@ -1,64 +1,63 @@
 <?php
 
-// Criando a classe "Loja"
-class Loja {
+/**
+ * Tentei utilizar corretamente a sintaxe do phpdoc neste arquivo.
+ * 
+ *  https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md 
+ */
+
+/**
+ * Classe Loja
+ */
+class Loja 
+{
+    /** @var int $nr_pedido contém o número do pedido */
+    protected $nr_pedido = 1001;
+
+    /** @var int $cd_produto contém o código do produto */
+    protected $cd_produto = 123;
+
+    /** @var int $nr_quantidade contém a quantidade (de algo que não foi especificado) */
+    protected $nr_quantidade = 2;
+
+    /** @var float $nr_valor_total_compra contém o valor total da compra */
+    protected $nr_valor_total_compra = 40.34;
 
     /**
-     * @var integer
-     */
-    public $nr_pedido = 1001;
-
-    /**
-     * @var integer
-     */
-    public $cd_produto = 123;
-
-    /**
-     * @var integer
-     */
-    public $nr_quantidade = 2;
-
-    /**
-     * @var float
-     */
-    public $nr_valor_total_compra = 40.34;
-
-    /**
-     * getNrPedido
+     * Retorna o número do pedido
      * 
-     * @return integer
+     * @return int
      */
     function getNrPedido() {
         return $this->nr_pedido;
     }
 
     /**
-     * getCdProduto
+     * Retorna o número do produto
      * 
-     * @return integer
+     * @return int
      */
     function getCdProduto() {
         return $this->cd_produto;
     }
 
     /**
-     * getNrQuantidade
+     * Retorna a quantidade (de algo que não foi especificado)
      * 
-     * @return integer
+     * @return int
      */
     function getNrQuantidade() {
         return $this->nr_quantidade;
     }
 
     /**
-     * getNrValorTotalCompra
+     * Retorna o valor total da compra
      * 
-     * @return integer
+     * @return int
      */
     function getNrValorTotalCompra() {
         return $this->nr_valor_total_compra;
     }
-
 }
 
 // Criando uma instância da classe "Loja"
