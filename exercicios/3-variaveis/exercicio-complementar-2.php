@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Pág 20 - Exercícios de Complementares - Número 2
+ */
+
 // Criando a classe "Loja"
 class Loja {
 

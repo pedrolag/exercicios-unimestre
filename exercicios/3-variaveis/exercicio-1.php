@@ -1,10 +1,14 @@
 <?php
 
+/**
+ * Pág 12 - Exercícios de Fixação - Número 2
+ */
+
 // Criando a classe "TestaVariavel"
 class TestaVariavel {
 
     // Propriedade "$nr_idade"
-    public $nr_idade;
+    private $nr_idade;
 
     // Método "setNrIdade()"
     // Aplica um novo valor para a idade

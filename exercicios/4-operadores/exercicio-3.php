@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Pág 28 - Exercícios de Fixação - Número 6
+ */
+
+/**
  * Classe TestaOperadoresRelacionais
  */
 class TestaOperadoresRelacionais 

@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Pág 27 - Exercícios de Fixação - Número 4
+ */
+
+/**
  * Classe TestaOperadoresDeAtribuicao
  */
 class TestaOperadoresDeAtribuicao 

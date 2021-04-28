@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Pág 20 - Exercícios de Complementares - Número 4
+ */
+
+/**
  * Tentei utilizar corretamente a sintaxe do phpdoc neste arquivo.
  * 
  *  https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md 

@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Pág 33 - Exercícios de Fixação - Número 2
+ */
+
+/**
  * Classe PrecoProduto
  */
 class PrecoProduto 

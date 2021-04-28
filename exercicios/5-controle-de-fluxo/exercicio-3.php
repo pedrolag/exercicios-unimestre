@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Pág 35 - Exercícios de Fixação - Número 6
+ */
+
+/**
  * Classe Saudacao
  */
 class Saudacao 

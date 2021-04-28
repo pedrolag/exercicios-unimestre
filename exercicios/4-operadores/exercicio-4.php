@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Pág 29 - Exercícios de Fixação - Número 8
+ */
+
+/**
  * Classe TestaOperadoresLogicos
  */
 class TestaOperadoresLogicos 

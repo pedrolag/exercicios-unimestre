@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Pág 26 - Exercícios de Fixação - Número 2
+ */
+
+/**
  * Classe TestaOperadoresAritmeticos
  */
 class TestaOperadoresAritmeticos 

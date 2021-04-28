@@ -1,6 +1,10 @@
 <?php
 
 /**
+ * Pág 34 - Exercícios de Fixação - Número 4
+ */
+
+/**
  * Classe ADivisivelPorB
  */
 class ADivisivelPorB 
