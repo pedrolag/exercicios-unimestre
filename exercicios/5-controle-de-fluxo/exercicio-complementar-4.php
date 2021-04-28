@@ -54,12 +54,12 @@ function piramide() {
 
         // Imprimir espacos
         for ($x = 0; $x < $nr_espacos_camada; $x ++) {
-            echo("-");
+            echo(" ");
         }
 
         // Imprimir tijolos
         for ($x = 0; $x < $nr_tijolos_camada; $x ++) {
-            echo("O");
+            echo("*");
         }
 
         // Quebrar a linha
