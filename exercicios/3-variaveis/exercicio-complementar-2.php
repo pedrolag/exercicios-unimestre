@@ -25,7 +25,7 @@ class Loja {
     public $nr_quantidade;
 
     /**
-     * @var integer
+     * @var float
      */
     public $nr_valor_total_compra;
 
