@@ -1,19 +1,28 @@
 <?php
 
 /**
- * Pág 45 - Exercícios Complementares - Número 3
+ * Pág 45 - Exercícios Complementares - Número 4
  * 
- *    *
- *   ***
- *  *****
- * *******
+ *        *
+ *       ***
+ *      *****
+ *     *******
+ *      *****
+ *     *******
+ *    *********
+ *   ***********
+ *    *********
+ *   ***********
+ *  *************
+ * ***************
+ * 
  */
 
 function piramide() {
 
     $nr_tijolos_camada = 0;
     $nr_espacos_camada = 0;
-    $nr_camadas_total = 4; // Exercício 3
+    $nr_camadas_total = 12;
     $nr_camada_atual = 0;
 
     $sn_arvore_terminada = false;
@@ -34,7 +43,7 @@ function piramide() {
         // Determinar o número de espaços e tijolos que serão impressos
         if ($nr_camada_atual == 0) {
             $nr_tijolos_camada = 1;
-            $nr_espacos_camada = 3;
+            $nr_espacos_camada = 7;
         } else {
             $nr_tijolos_camada += 2;
             $nr_espacos_camada -= 1;
