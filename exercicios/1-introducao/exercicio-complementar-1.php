@@ -8,10 +8,17 @@ class HelloWorld {
         echo("Hello World");
     }
 
+    // Método "printTwoLines()" da classe
+    function printTwoLines() {
+        echo("Hello World");
+        echo("<br />");
+        echo("Hello World");
+    }
+
 }
 
 // Criando uma instância da classe "HelloWorld"
 $objHelloWorld = new HelloWorld();
 
-// Chamando o método "print()"
-$objHelloWorld->print();
+// Chamando o método "printTwoLines()"
+$objHelloWorld->printTwoLines();
