@@ -16,15 +16,15 @@ Exemplo:
 - Contato
 
 ## Segundo
-Criaria uma classe de Compra que iria conter as informações relacionadas à compra.
+Criaria uma classe de Pedido que iria conter as informações relacionadas ao pedido.
 Exemplo: 
-- ID da compra
-- Lista de pedidos
+- ID do pedido
+- Lista de compras
    - Produto
    - Quantidade
    - Descrição
 - Valor total
-- Data da compra
+- Data do pedido
 - ID do cliente
 
 ## Terceiro
