@@ -1,0 +1,13 @@
+{
+    "name": "unimestre/exercicios-unimestre",
+    "description": "unimestre/exercicios-unimestre",
+    "authors": [
+        {
+            "name": "Pedro Gonçalves",
+            "email": "pedro@unimestre.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
