@@ -1,0 +1,12 @@
+M7 E3
+ [x] Adicionar um valor na pilha e verificar o tamanho da pilha
+ [x] Remover a ultima informacao adicionada na pilha
+
+M7 E4
+ [x] Verificar o tamanho da lista
+ [x] Adicionar um valor na ultima posicao da lista
+ [x] Adicionar um valor depois de uma posicao especifica da lista
+ [x] Retornar todos os valores da lista corretamente
+ [x] Adicionar um valor no inicio da lista
+ [x] Remover um valor especifico da lista with data set "list-with-multiple-values"
+

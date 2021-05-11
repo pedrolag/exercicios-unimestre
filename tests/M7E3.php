@@ -6,7 +6,7 @@ include "exercicios/7-avancados/exercicio-3.2.php";
 
 class M7E3 extends TestCase
 {
-    public function testPushAndLength()
+    public function testAdicionarUmValorNaPilhaEVerificarOTamanhoDaPilha()
     {
         $stack = new Stack();
 
@@ -19,7 +19,7 @@ class M7E3 extends TestCase
 
     }
 
-    public function testPop()
+    public function testRemoverAUltimaInformacaoAdicionadaNaPilha()
     {
         $stack = new Stack();
 
@@ -34,6 +34,5 @@ class M7E3 extends TestCase
             0,
             $stack->length()    
         );
-
     }
 }

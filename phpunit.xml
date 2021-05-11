@@ -1,7 +1,11 @@
-<phpunit bootstrap="vendor/autoload.php">
+<phpunit bootstrap="vendor/autoload.php" colors="true">
   <testsuites>
-    <testsuite name="money">
-      <file>tests/ExemploPhpUnitTest.php</file>
+    <testsuite name="exercicios-unimestre">
+      <file>tests/M7E3.php</file>
+      <file>tests/M7E4.php</file>
     </testsuite>
   </testsuites>
+  <logging>
+    <log type="testdox-text" target="testes-executados.txt" />
+  </logging>
 </phpunit>
