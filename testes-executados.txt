@@ -10,3 +10,6 @@ M7 E4
  [x] Adicionar um valor no inicio da lista
  [x] Remover um valor especifico da lista with data set "list-with-multiple-values"
 
+M7 E5
+ [x] Insert values in the tree in the correct branches
+

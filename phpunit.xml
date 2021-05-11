@@ -3,6 +3,7 @@
     <testsuite name="exercicios-unimestre">
       <file>tests/M7E3.php</file>
       <file>tests/M7E4.php</file>
+      <file>tests/M7E5.php</file>
     </testsuite>
   </testsuites>
   <logging>
