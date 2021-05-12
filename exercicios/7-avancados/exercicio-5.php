@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 4) Arvore binaria ordenada - inserir na arvore já ordenando os elementos. 
+ * 5) Arvore binaria ordenada - inserir na arvore já ordenando os elementos. 
  * Pode ser usada a lista utilizada no exercicio 4
  */
 
