@@ -13,3 +13,6 @@ M7 E4
 M7 E5
  [x] Insert values in the tree in the correct branches
 
+M7 E6
+ [x] Quick sort
+
