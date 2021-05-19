@@ -106,8 +106,10 @@ class EstruturaDePastas
 
     public function imprimirEstruturaCompleta($objEstruturaDePastas = null, int $nivel = -1)
     {
+        // Nível serve apenas para identar durante a impressão na tela
         $nivel += 1;
 
+        // Caso a função seja chamada sem nenhum parâmetro, imprime a estrutura desde a raiz
         if ($objEstruturaDePastas == null) {
             
             // Voltar para a raiz do projeto
@@ -122,10 +124,12 @@ class EstruturaDePastas
         while (true) {
             echo str_repeat("    ", $nivel) . $objEstruturaDePastas->nome . '<br>';
 
+            // Imprime todos os diretórios filhos
             if ($objEstruturaDePastas->ponteiroDiretorioFilho != null) {
                 $this->imprimirEstruturaCompleta($objEstruturaDePastas->ponteiroDiretorioFilho, $nivel);
             }
             
+            // Imprime todos os diretórios irmãos
             if ($objEstruturaDePastas->ponteiroDiretorioIrmaoDireita != null) {
                 $this->imprimirEstruturaCompleta($objEstruturaDePastas->ponteiroDiretorioIrmaoDireita, $nivel -= 1);
             }
