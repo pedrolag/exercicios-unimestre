@@ -23,7 +23,7 @@
  * Fazer usando objetos e no final essa lista de pastas deve ser listada com uma função recursiva
  */
 
-class DirTree
+class DirStructure
 {
     public $objStrutcture;
     public $obj;
@@ -131,7 +131,7 @@ class DirTree
     }
 }
 
-$DirTree = new DirTree();
+$dirStructure = new DirStructure();
 echo "<br><pre>";
-$DirTree->list($DirTree->objStrutcture);
-$DirTree->create($DirTree->objStrutcture);
+$dirStructure->list($dirStructure->objStrutcture);
+$dirStructure->create($dirStructure->objStrutcture);

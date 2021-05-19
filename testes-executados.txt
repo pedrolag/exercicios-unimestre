@@ -16,3 +16,6 @@ M7 E5
 M7 E6
  [x] Quick sort
 
+M7 E7
+ [x] Inserir diretorios na estrutura
+

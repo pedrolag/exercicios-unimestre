@@ -187,8 +187,9 @@ class DoublyLinkedList
         }
 
         while ($node != null) {
-            if ($currentNodeIndex == $nodeIndex)
+            if ($currentNodeIndex == $nodeIndex) {
                 return $node;
+            }
 
             $node = $node->previousNode;
             $currentNodeIndex -= 1;

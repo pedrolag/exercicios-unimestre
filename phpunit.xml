@@ -5,6 +5,7 @@
       <file>tests/M7E4.php</file>
       <file>tests/M7E5.php</file>
       <file>tests/M7E6.php</file>
+      <file>tests/M7E7.php</file>
     </testsuite>
   </testsuites>
   <logging>

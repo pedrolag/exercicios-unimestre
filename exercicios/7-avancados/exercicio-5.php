@@ -26,7 +26,9 @@ class OrderedBinaryTree
 
         while (true) {
             if ($selectedNode != null) {
+
                 if ($value == $selectedNode->value) break;
+                
                 if ($value < $selectedNode->value) {
                     if ($selectedNode->branchLeft != null) {
                         $selectedNode = $selectedNode->branchLeft;
